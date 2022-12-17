@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.x {
+    background-color: #FFD700;
+    border: 1;
+}
+
+.button {
+    width: 250px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #FFD700;
+    padding: 10px 32px;
+}
+
+.cover {
+    border: 5px;
+}
+
+body {
+    background-color: aquamarine;
+}

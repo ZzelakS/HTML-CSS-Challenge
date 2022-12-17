@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div>
+        <div class="flex-container">
+            <p>Start Date</p>
+            <p>End Date</p>
+        </div>
+        <div class="flex-container">
+            <form action="">
+                <input type="date" id="today" name="today">
+            </form>
+            <form action="">
+                <input type="date" name="today" id="today">
+            </form>
+        </div>
+        <br>
+        <div class="flex-container">
+            <p>Points Required</p>
+            <p>Number of Coupons</p>
+        </div>
+        <div class="flex-container">
+            <div>
+                <button class="x" onclick="decrement()">-</button>
+                <input type="number" min=100 max=110>
+                <button class="x" onclick="increment()">+</button>
+            </div>
+            <div>
+                <button class="x" onclick="decrement">-</button>
+                <input type="number" min=100 max=110>
+                <button class="x" onclick="increment">+</button>
+            </div>
+        </div>
+        <br>
+        <div class="flex-container">
+            <button class="button">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
